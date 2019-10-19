@@ -1,0 +1,11 @@
+schema: http://localhost:4000/graphql
+generates:
+  ./schema.d.ts:
+    plugins:
+      - typescript
+  ./src/gql.d.ts:
+    plugins:
+      - typescript
+  ./src/graphql/fragmentTypes.json:
+    plugins:
+      - fragment-matcher

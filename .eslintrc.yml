@@ -1,0 +1,5 @@
+extends: 'airbnb-typescript'
+plugins:
+  - '@typescript-eslint/eslint-plugin'
+rules:
+  "import/prefer-default-export": 0
